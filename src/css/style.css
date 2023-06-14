@@ -90,7 +90,8 @@ button {
 
 .column-item {
   position: relative;
-  width: 100%;
+  max-width: 100%;
+  min-width: 300px;
   padding: 8px;
   background-color: #fff;
   cursor: grab;
